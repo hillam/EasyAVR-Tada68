@@ -22,7 +22,7 @@
 # might also work for you, though.  The sizes are defined in the
 # templates/__init__.py file of the keymapper.
 # Leave the rest of the imports like they are here.
-import easykeymap.templates.ATmega32U4_16MHz_TKL as firmware
+import easykeymap.templates.ATmega32U4_16MHz_SIXTY as firmware
 from easykeymap.ioports import *
 from easykeymap.helper import make_matrix_config
 
