@@ -12,7 +12,7 @@ Added TADA68 support for [Easy AVR](https://github.com/dhowland/EasyAVR).
 
 
 ## TODO
-- [ ] Confirm that my layouts are configured correctly by testing on an actual TADA68...
-  - [ ] ANSI
+- [x] Confirm that my layouts are configured correctly by testing on an actual TADA68...
+  - [x] ANSI
   - [ ] ISO
-- [ ] LED support
+- [x] LED support
