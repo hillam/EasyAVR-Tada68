@@ -100,7 +100,7 @@ num_bl_enab = 2
 # 'Recording', 'Backlight', and 'Unassigned'.
 led_definition = [
     ('Caps Key', 'Caps Lock'),
-    ('Scroll Key', 'Scroll Lock')
+    ('Backlight Key', 'Backlight')
 ]
 
 # Definition of LED pins.  (indicators and backlights)  Indicators
@@ -111,8 +111,8 @@ led_definition = [
 # of the LED and the anode is connected to the power supply.
 led_hardware = [
 #       Port    Pin    Direction
-    ( REF_PORTB, 6, LED_DRIVER_PULLUP ),
-    ( REF_PORTB, 7, LED_DRIVER_PULLUP )
+    ( REF_PORTB, 2, LED_DRIVER_PULLUP ),
+    ( REF_PORTB, 6, LED_DRIVER_PULLUP )
 ]
 
 # True if the board supports backlight, otherwise False
